@@ -4,8 +4,7 @@ Quotes is  an application where users can create quotes and have those quotes vo
 Lilian Wangechi
 ## How it works
 Quotes allows you to create your own quotes.You input your own quote and let other users either upvote your quote incase they like it or downvote your quote incase they don't like it.
-
-
+The user types in a quote and has the option to upvote or downvote other users quotes.
 ### Live Page
 PUT GH-PAGES LINK[https://lilianwangechi.github.io/....]
 ## Setup / Installation
@@ -13,22 +12,22 @@ Open Terminal {ctrl+alt+T}
 git clone [PUT GITHUB LINK https://lilianwangechi.github.io/ ] 
 cd Quotes 
 code . or atom . depending on the text editor of your choice.
-### Todo list
-1) Entering  Email and Name
-2) Display a popup message telling the user that their message has been received.
+
 ### Known Bugs
 There are no known bugs so for hence the progam works as expected, although some parts are under development like the alert message and the mailchimp API.
 ## Technologies used
-1) HTML5
-2) CSS
-3) BOOTSTRAP
-4) Jquery
-5) markdown
+1) ANGULAR CLI 
+2)HTML5
+3) CSS
+4) BOOTSTRAP
+5) JAVASCRIPT
+6) TYPESCRIPT
+7) MARKDOWN
 ## BEHAVIOURAL DRIVEN-DEVELOPMENT (BDD)
-   Behaviour       |           Input                   |           Output              |
--------------------|-----------------------------------|-------------------------------|
-|Enter your Name   | e.g lilian                |                               |
-|Enter your Email  | e.g lilian@gmail.com        |                                |
+   Behaviour       |           Input                   |           Output      |
+-------------------|-----------------------------------|   --------------------|
+|Enter your Name   | e.g lilian                        |                       |
+|Enter your Email  | e.g lilian@gmail.com              |                        |
 |Enter your Message|e.g I would to make an enquiry|pop up "Thank you,Lilian, Your message has been received!"|
 ## Support and Contact
 Any contributions are welcome through project cloning.
